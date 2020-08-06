@@ -10,7 +10,7 @@ Ref: [唯妮供应链开放平台](http://api.weinihaigou.com/interface/html/ind
 
 ## Installation
 ```
-composer require seekx2y/weini-sdk -vvv
+composer require seek-x2y/weini-sdk -vvv
 ```
 ## Usage
 ```
