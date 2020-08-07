@@ -4,7 +4,6 @@
 namespace Seekx2y\WeiniSDK;
 
 use Hanson\Foundation\AbstractAPI;
-use Hanson\Foundation\Foundation;
 
 class Api extends AbstractAPI
 {
@@ -24,7 +23,6 @@ class Api extends AbstractAPI
     public function __construct(Weini $weini)
     {
         $config = $weini->getConfig();
-        parent::__construct(new Foundation($config));
         $this->key = $config['key'] ?? '';
         $this->parenter = $config['parenter'] ?? '';
         $this->url = $config['debug'] ? static::DEV_URL : static::PRODUCTION_URL;

@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "hanson/foundation-sdk": "^4.0",
+        "php": ">=7.1",
+        "hanson/foundation-sdk": "3.0.0",
         "ext-json": "*"
     },
     "require-dev": {
